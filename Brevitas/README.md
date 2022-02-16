@@ -39,7 +39,7 @@ Quite active community and support for bug fix and also the tool is still in dev
 | Train Acuracy | 0.98 | 0.62 |0.55 |
 | Test Acuracy | 0.57 | 0.56 |0.51 |
 
-Further information : [Mallah, Maen’s Homepage](https://intern.iis.fhg.de/display/~mhm/Use-case+networks+for+quantization-aware+training+tools)
+
 
 
 **Authors**:
