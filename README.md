@@ -11,7 +11,7 @@ Running a DNN inference using the full 32-bit representation is not practical fo
 As opposed to computing scale factors to activation tensors after the DNN is trained (also called hard quantization), the quantization error is considered when training the model. The training graph is modified to simulate the lower precision behavior in the forward pass of the training process. This introduces the quantization errors as part of the training loss, which the optimizer tries to minimize during the training. Thus, QAT helps in modeling the quantization errors during training and mitigates its effects on the accuracy of the model at deployment.
 <p float="left">
   <img src="https://github.com/uslumt/TinyDL/blob/main/Figures/Figure_unquantized.png" width="200"  lenght="200"  />
-  
+  &nbsp; &nbsp; &nbsp; &nbsp;
   <img src="https://github.com/uslumt/TinyDL/blob/main/Figures/Figure_quantized.png" width="200"  lenght="200" /> 
 </p>
 
