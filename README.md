@@ -9,4 +9,8 @@ This compute budget may be acceptable at training as most DNNs are trained in da
 these models are most often required to run on devices with much smaller computing resources and lower power budgets at the edge. 
 Running a DNN inference using the full 32-bit representation is not practical for real-time analysis given the compute, memory, and power constraints of the edge.  
 As opposed to computing scale factors to activation tensors after the DNN is trained (also called hard quantization), the quantization error is considered when training the model. The training graph is modified to simulate the lower precision behavior in the forward pass of the training process. This introduces the quantization errors as part of the training loss, which the optimizer tries to minimize during the training. Thus, QAT helps in modeling the quantization errors during training and mitigates its effects on the accuracy of the model at deployment.
+<p float="left">
+  <img src="https://github.com/uslumt/TinyDL/blob/main/Figures/Figure_unquantized.png" width="100" />
+  <img src="https://github.com/uslumt/TinyDL/blob/main/Figures/Figure_quantized.png" width="100" /> 
+</p>
 
