@@ -1,5 +1,5 @@
-## TinyDL
-# Introduction
+# TinyDL
+## Introduction
 Quantization is the process of transforming deep learning models to use parameters and computations at a lower precision. 
 Traditionally, DNN training and inference have relied on the IEEE single-precision floating-point format, 
 using 32 bits to represent the floating-point model weights and activation tensors.
