@@ -12,6 +12,7 @@ As opposed to computing scale factors to activation tensors after the DNN is tra
 <p align="center">
   <img src="https://github.com/uslumt/TinyDL/blob/main/Figures/Figure_unquantized.png" width="200"  lenght="200"  />
   &nbsp; &nbsp; &nbsp; &nbsp;
+  &nbsp; &nbsp; &nbsp; &nbsp;
   <img src="https://github.com/uslumt/TinyDL/blob/main/Figures/Figure_quantized.png" width="200"  lenght="200" /> 
 </p>
 
