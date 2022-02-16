@@ -42,6 +42,6 @@ Quite active community and support for bug fix and also the tool is still in dev
 
 
 
-## Authors:
-Maen Mallah Research Associate @Fraunhofer IIS,
+**Authors**:
+Maen Mallah Research Associate @Fraunhofer IIS
 Muhammet Uslu Student Assistant @Fraunhofer IIS
